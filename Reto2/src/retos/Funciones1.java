@@ -31,7 +31,6 @@ public class Funciones1 {
 	
 	}
 
-	
 	public static void menu1(int numero, Scanner sc) {
 		do {
 			System.out.println("Selecciona la conversión de longitud");
@@ -57,12 +56,8 @@ public class Funciones1 {
 		
 		}}
 
-
-	
-	
-	
 	// Millas a km
-	public static double millasaKilometros(double millas) { //si pulsa uno sale esto
+	public static double millasaKilometros(double millas) { // si pulsa uno sale esto
 		return millas * 1.69;
 
 	}
@@ -84,7 +79,3 @@ public class Funciones1 {
 		return kilogramos * 2.205;
 	}
 }
-
-
-
-
