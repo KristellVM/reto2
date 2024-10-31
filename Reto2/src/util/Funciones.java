@@ -83,7 +83,7 @@ public class Funciones {
 	public static int dimeEntero(String texto, Scanner sc) {
 		do {
 			try {
-				System.out.println("Dime un entero");
+				System.out.println(texto);
 				String texto1 = sc.nextLine();
 				int n3 = Integer.parseInt(texto1);
 				return n3;
@@ -97,7 +97,7 @@ public class Funciones {
 	public static double dimeDouble(String texto, Scanner sc) {
 		do {
 			try {
-				System.out.println("Dime un decimal");
+				System.out.println(texto);
 				String texto2 = sc.nextLine();
 				double n4 = Double.parseDouble(texto2);
 				return n4;
