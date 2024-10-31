@@ -6,5 +6,7 @@ public class Funciones2 {
 		return (num*9/5)+32;
 	}
 	
-	
+	public static double fahrenheitACelsius(double num) {
+		return (num-32)*5/9;
+	}
 }
